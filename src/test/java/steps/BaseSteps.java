@@ -32,4 +32,5 @@ public class BaseSteps extends BaseTest {
     public void iHaveTestDataIn(String file, String sheet, String row) throws IOException {
         data = new ExcelUtilities().getRowData(file,sheet,Integer.parseInt(row));
     }
+
 }
